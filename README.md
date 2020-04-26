@@ -1,2 +1,2 @@
-# Stock-Price-Analysis-of-AAPL
+# Neural Predictor of Stock Prices
 Currently in development
