@@ -17,34 +17,6 @@ register_matplotlib_converters()
 plt.style.use('fivethirtyeight')
 pb = ProgressBar(max = 100)
 
-import kivy
-from kivy.app import App
-from kivy.uix.label import Label
-from kivy.graphics import *
-from kivy.garden.matplotlib.backend_kivyagg import FigureCanvasKivyAgg
-from kivy.utils import get_color_from_hex as rgb
-from kivy.uix.widget import Widget
-from kivy.uix.gridlayout import GridLayout
-from kivy.uix.floatlayout import FloatLayout
-from kivy.uix.slider import Slider
-from kivy.graphics import Ellipse
-from kivy.uix.popup import Popup
-from kivy.clock import Clock
-from kivy_deps import sdl2,glew,gstreamer
-from kivy.uix.button import Button
-from kivy.properties import ObjectProperty
-from kivy.uix.boxlayout import BoxLayout
-from kivy.lang.builder import Builder
-from kivy.uix.filechooser import FileChooser
-from kivy.graphics import Ellipse,Line,Color
-from kivy.graphics.instructions import Canvas
-from kivy.uix.checkbox import CheckBox
-from kivy.base import runTouchApp
-from kivy.uix.image import Image
-from kivy.uix.filechooser import FileChooser
-#from KivyCalendar import DatePicker
-#from kivy.core.window import Window
-kivy.require('1.11.1')
 #import webbrowser
 
 df = web.DataReader('AAPL', data_source='yahoo', start='2012-01-01', end='2020-04-21')
