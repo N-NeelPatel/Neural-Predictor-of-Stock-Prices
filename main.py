@@ -9,8 +9,6 @@ from keras.layers import Dense, LSTM
 import matplotlib as mlp
 import matplotlib.pyplot as plt
 from pandas.plotting import register_matplotlib_converters
-from kivy.config import Config
-from kivy.uix.progressbar import ProgressBar
 Config.set('graphics', 'width', '1150')
 Config.set('graphics', 'height', '600')
 register_matplotlib_converters()
